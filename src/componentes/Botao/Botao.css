@@ -1,0 +1,16 @@
+.botao{
+    background-color: #6278f7; /*Cor do backgraond do botão*/
+    border-radius: 10px; /*Colocando a borda*/
+    font-weight: 700;/*Colocando a fonte do criar card em "negrito", deixando mais forte a cor*/
+    font-size: 18px;/*Tamanho da fonte*/
+    padding: 32px; /*Tamanho do botão*/
+    border: none;/*Retirando a borda do botão*/
+    cursor: pointer; /*Quando colocar o mouse em cima, irá mostrar uma mão ao invés do cursor*/
+    color: #fff; /*Cor da fonte*/
+    margin: 32px 0;/* Descendo o botão*/
+}
+
+
+.botao:hover{
+    color: #95ffd4; /*Comando de quando colocar o mouse por cima, a cor decriar card irá mudar*/
+}

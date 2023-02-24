@@ -2,7 +2,7 @@
 .lista-suspensa label{
     display: block;
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 24px; /*Tamanho da fonte "Time"*/
 }
 
 .lista-suspensa select{
