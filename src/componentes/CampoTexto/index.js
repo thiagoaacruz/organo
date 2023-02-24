@@ -1,12 +1,18 @@
-import './CampoTexto.css'
+import './CampoTexto.css' /*Importe do css */
 
-
-const CampoTexto = () => {
+//Essa é a classe de texto, nela terá 
+//{props.label} = Nesse comando estou fazendo  uma passagem de parâmetro
+//{props.placeholder} = Nesse comando estou fazendo uma passagem de parâmetro
+const CampoTexto = (props) => {
+    
+    const placeholderModificada = `${props.placeholder}...` /*Adicionando três pontos no final = "Digite seu nome..."*/
 
     return(
         <div className="campo-texto">
-            <label>Nome</label>
-            <input placeholder='Digite o seu nome'/>
+            <label>
+                {props.label} 
+                </label>
+            <input placeholder={placeholderModificada}/>
         </div>
     )
 

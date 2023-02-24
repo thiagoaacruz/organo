@@ -9,11 +9,11 @@
 }
 
 .campo-texto input{
-    background-color: #fff;
+    background-color: #fff; /*Deixando a caixa para digitar em branco*/
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    width: 100%;
-    border: none;
-    font-size: 24px;
-    padding: 24px;
-    box-sizing: border-box;
+    width: 100%;/*Tamanho do campo para digitar em 100% da tela*/
+    border: none; /*Tirando a borda*/
+    font-size: 24px;/*Deixando o tamanho do texto de 24px*/
+    padding: 24px;/*Largura do campo em 24px  */
+    box-sizing: border-box; /*Deixando caixa o tamanho da caixa mensagem com referência com paddig */
 }

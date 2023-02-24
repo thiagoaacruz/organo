@@ -1,12 +1,13 @@
-import Banner from './componentes/Banner/Banner';
-import CampoTexto from './componentes/CampoTexto';
+import Banner from './componentes/Banner';/*Impotando a função do Banner*/
+import Formulario from './componentes/Formulario';
+
+//Essa classe é a main do projeto, nela terá todas referências dos componentes
 
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <CampoTexto />
-     
+      <Banner />     
+      <Formulario/>
     </div>
   );
 }
