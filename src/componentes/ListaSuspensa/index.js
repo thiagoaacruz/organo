@@ -16,13 +16,19 @@ import './ListaSuspensa.css'
    cada item, nesse caso cada nome será sua chave
 */ 
 
+//<select required={props.required}> = Deixando o campo obrigatório
+//onChange={evento => props.aoAlterado(evento.target.value) = Método de setar lista suspensa 
+
 const ListaSuspensa = (props) =>{
-    console.log(props.itens)
+    
 
     return(
         <div className='lista-suspensa'>
             <label>{props.label}</label>
-            <select>
+           
+            <select onChange={evento => props.aoAlterado(evento.target.value)} 
+             required={props.required} 
+             value={props.value}>
                 {props.itens.map(item =>{
                     return <option key={item}>{item}</option>
                 })}
